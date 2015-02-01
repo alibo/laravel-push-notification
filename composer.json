@@ -13,6 +13,14 @@
         "illuminate/support": "4.*",
         "sly/notification-pusher": "2.*"
     },
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/alibo/NotificationPusher.git"
+        }
+    ],
+
     "autoload": {
         "psr-0": {
             "Davibennun\\LaravelPushNotification": "src/"
