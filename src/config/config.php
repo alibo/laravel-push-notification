@@ -11,7 +11,12 @@ return array(
     'appNameAndroid' => array(
         'environment' =>'production',
         'apiKey'      =>'yourAPIKey',
-        'service'     =>'gcm'
+        'service'     =>'gcm',
+        'restrictedPackageName' => 'com.example.app',
+        'delayWhileIdle' => false,
+        'dryRun' => false,
+        'collapseKey' => null,
+        'ttl' => 900 //15 min (in seconds)
     )
 
 );
